@@ -2,6 +2,7 @@ First I have taken a sine wave with DC component 2.5 and with amplitude 2.5 and 
 Then they given that we can use only two voltage sources,So one of them will be this sin signal. And the other will be a constant 5V.
 Now as our aim is to divide that 0-5 amplitude sin signal into 4 bins (since for 2 bits resolution 4 parts will be possible).So, length of each bin would be 5/4=1.25.
 Now our comparator voltages would be 1.25,2.5.3.75 so I used 3 op-amps.I have set op-amps in that way that it will be give the output as  0 if the signal voltage is less than the comparator's voltage.Else it will give 1.
+I got the 1.25,2.5,3.75 voltages from a single 5V supply as by using the 4-equal resistance resistors. Since the potential drop across each resistor is same and equals to 1.25.From here we can get our required reference potentials.
 So then at the last we will get outputs like,000,100,110,111
 Now I had converted them into 2-bits so that we will get what we required (2-bit resolution).
 After that,I got the simplified boolean expression for the MSB and LSB bits.
@@ -11,3 +12,5 @@ After getting them, I had plotted the graph of sin signal,MSB signal,LSB signal,
 The photo is given in 2_bit_ADC.png Check it once.
 
 And the photo of simplified boolen expression is given in bool.jpeg
+
+Finally we get outputs of the ADC as 0,1.25,2.5,3.75 volts 
