@@ -10,4 +10,4 @@ After getting them, I had plotted the graph of sin signal,MSB signal,LSB signal,
 
 The photo is given in 2_bit_ADC.png Check it once.
 
-And the photo of simplified boolen expression is given in bool
+And the photo of simplified boolen expression is given in bool.jpeg
